@@ -1,0 +1,34 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #222;
+}
+.item {
+  margin: 30px auto;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.item img:hover {
+  transform: scale(1.03);
+}
+.description {
+  display: none;
+  margin-top: 15px;
+  color: #333;
+  line-height: 1.6;
+}
